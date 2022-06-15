@@ -1,0 +1,36 @@
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px 20px 100px;
+}
+
+.header__menu{
+    display: flex;
+    margin-right: 80px;
+    flex-wrap: wrap;
+}
+
+.header__items{
+    margin: 20px;
+}
+
+.header__links{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+}
+
+.header__links:hover{
+    color: #ff681d;
+}
+
