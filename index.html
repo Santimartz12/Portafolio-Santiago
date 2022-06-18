@@ -6,27 +6,278 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <title>Santiago Martínez | Portafolio</title>
 
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/presentacion.css">
+    <link rel="stylesheet" href="./css/sobre-mi.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/hobbies.css">
+    <link rel="stylesheet" href="./css/formacion.css">
+    <link rel="stylesheet" href="./css/proyectos.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
 
 </head>
 
 <body>
+
     <header class="header">
         <img src="resources/Logos/LogoSantimartz.svg" alt="Logo Santimartz" class="header__logo">
         <ul class="header__menu">
-            <li class="header__items"><a href="#" class="header__links">Sobre mi</a></li>
-            <li class="header__items"><a href="#" class="header__links">Skills</a></li>
-            <li class="header__items"><a href="#" class="header__links">Hobbies</a></li>
-            <li class="header__items"><a href="#" class="header__links">Formación</a></li>
-            <li class="header__items"><a href="#" class="header__links">Proyectos</a></li>
-            <li class="header__items"><a href="#" class="header__links">Contacto</a></li>
+            <li class="header__items"><a href="#sobreMi" class="header__links">Sobre mi</a></li>
+            <li class="header__items"><a href="#skills" class="header__links">Skills</a></li>
+            <li class="header__items"><a href="#hobbies" class="header__links">Hobbies</a></li>
+            <li class="header__items"><a href="#formacion" class="header__links">Formación</a></li>
+            <li class="header__items"><a href="#proyectos" class="header__links">Proyectos</a></li>
+            <li class="header__items"><a href="#contacto" class="header__links">Contacto</a></li>
         </ul>
+        <a href="#contacto"><img src="./resources/Iconos/contacto.svg" alt="Contacto" class="contacto__icon"></a>
     </header>
+
+    <main>
+
+        <div class="contenedorbanner">
+            <img src="./resources/Imagenes/Imagen1.webp" alt="banner" class="banner">
+        </div>
+
+        <section class="presentacion">
+            <div class="presentacion__info">
+                <h2 class="presentacion__titulo">Hola! Mi nombre es Santiago Martínez</h2>
+                <p class="presentacion__texto">Soy un artista Colombiano de 20 años, he trabajado como freelancer en diseño gráfico y animación 3d. Actualmente estoy aprendiendo desarrollo FrontEnd gracias al proyecto Oracle ONE en Alura Latam.</p>
+                <ul class="presentacion__lista">
+                    <li class="presentacion__items"><a href="https://github.com/Santimartz12" target="_blank"
+                            class="presentacion__links">Github</a></li>
+                    <li class="presentacion__items"><a href="https://www.linkedin.com/in/santimartz/" target="_blank"
+                            class="presentacion__links">LinkedIn</a></li>
+                    <li class="presentacion__items"><a href="https://www.instagram.com/santimartz12/" target="_blank"
+                            class="presentacion__links">Instagram</a></li>
+                    <li class="presentacion__items"><a href="https://santimartz.artstation.com/" target="_blank"
+                            class="presentacion__links">ArtStation</a></li>
+                    <li class="presentacion__items__boton"><a href="#" class="presentacion__items__curriculo">Descargar currículo</a></li>
+                </ul>
+
+
+            </div>
+            <img src="./resources/Imagenes/ImagenPerfil.jpg" alt="Foto de Santiago" class="presentacion__foto">
+        </section>
+
+        <section id="sobreMi">
+            <div class="sobreMi__info">
+                <h2 class="sobreMi__titulo">Sobre mi</h2>
+                <p class="sobreMi__texto">Hola! Soy Santiago Martínez. Tengo 20 años, soy de Colombia y soy parte del programa ONE. 
+
+                <br><br>
+                Soy una persona que aprende bastante rápido y busca aplicar todos esos conocimientos obtenidos en proyectos tanto personales como profesionales; aparte de la programación me he movido bastante en el diseño gráfico, la animación 3d y la edición de videos, por lo que tengo un amplio manejo de la suite de Adobe y he logrado desarrollar varios trabajos profesionales como freelancer.
+                
+                <br><br>
+                Estoy realizando un curso de C# con el que espero mejorar tanto en la lógica de programación, como en la construcción de programas y aplicativos móviles. De igual forma estoy aprendiendo construcción de páginas web y desarrollo de videojuegos gracias al proyecto ONE brindado por Oracle y Alura para aprender todo lo relacionado con FrontEnd y Java.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="skills__titulo">Skills</h2>
+            <div class="skills__lista">
+                <div class="skills__item">
+                    <div class="skills__imagen skills__imagen-html"></div>
+                    <p class="skills__nombre">HTML</p>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__imagen skills__imagen-css"></div>
+                    <p class="skills__nombre">CSS</p>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__imagen skills__imagen-js"></div>
+                    <p class="skills__nombre">JavaScript</p>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__imagen skills__imagen-csharp"></div>
+                    <p class="skills__nombre">C#</p>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__imagen skills__imagen-git"></div>
+                    <p class="skills__nombre">Git</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2 class="hobbies__titulo">hobbies</h2>
+            <div class="hobbies__lista">
+                <div class="hobbies__item">
+                    <div class="hobbies__imagen hobbies__imagen-camara"></div>
+                    <p class="hobbies__nombre">Tomar fotos</p>
+                </div>
+
+                <div class="hobbies__item">
+                    <div class="hobbies__imagen hobbies__imagen-musica"></div>
+                    <p class="hobbies__nombre">Oír música</p>
+                </div>
+
+                <div class="hobbies__item">
+                    <div class="hobbies__imagen hobbies__imagen-escultura"></div>
+                    <p class="hobbies__nombre">Escultura 3D</p>
+                </div>
+
+                <div class="hobbies__item">
+                    <div class="hobbies__imagen hobbies__imagen-series"></div>
+                    <p class="hobbies__nombre">Ver series</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="formacion">
+            <h2 class="formacion__titulo">Formación</h2>
+            <div class="formacion__lista">
+
+                <div class="formacion__contenedor">
+                    <div class="formacion__item">
+                        <img src="./resources/Logos/LogoNormalFalan.png" alt="" class="formacion__lista__imagen">
+                    </div>
+                    <h3 class="formacion__lista__nombre">Normalista Superior</h3>
+                    <p class="formacion__lista__fecha">2019 - IENSFT</p>
+                </div>
+
+                <div class="formacion__contenedor">
+                    <div class="formacion__item">
+                        <img src="./resources/Logos/LogoUNAD.svg" alt="" class="formacion__lista__imagen">
+                    </div>
+                    <h3 class="formacion__lista__nombre">Ingeniería Multimedia</h3>
+                    <p class="formacion__lista__fecha">2021 (Sin finalizar) - UNAD</p>
+                </div>
+
+
+                <div class="formacion__contenedor">
+                    <div class="formacion__item">
+                        <img src="./resources/Logos/logoAlura.svg" alt="" class="formacion__lista__imagen">
+                    </div>
+                    <h3 class="formacion__lista__nombre">Desarrollador FrontEnd</h3>
+                    <p class="formacion__lista__fecha">En curso - Oracle Next Education</p>
+                </div>
+
+                <div class="formacion__contenedor">
+                    <div class="formacion__item">
+                        <img src="./resources/Logos/LogoUdemy.svg" alt="" class="formacion__lista__imagen">
+                    </div>
+                    <h3 class="formacion__lista__nombre">Programación en C#</h3>
+                    <p class="formacion__lista__fecha">En curso - Udemy</p>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <section id="proyectos">
+            <h2 class="proyectos__titulo">proyectos Desarrollados</h2>
+
+            <div class="proyectos__lista">
+
+
+                <div class="proyectos__item">
+                    <img src="./resources/Imagenes/Proyectos/encriptador.jpg" alt="Imagen encriptador"
+                        class="proyectos__item__imagen">
+                    <div class="proyectos__item__info">
+                        <div>
+                            <h3 class="proyectos__item__titulo">Encriptador de texto</h3>
+                            <p class="proyectos__item__descripcion">Challenge Oracle</p>
+                        </div>
+                        <div class="proyectos__botones">
+                            <a class="proyectos__item__boton boton-repositorio" target="_blank"
+                                href="https://github.com/Santimartz12/Encriptador">Repositorio</a>
+                            <a class="proyectos__item__boton boton-demo" target="_blank"
+                                href="https://santimartz12.github.io/Encriptador/">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyectos__item">
+                    <img src="./resources/Imagenes/Proyectos/ahorcado.jpg" alt="Imagen ahorcado"
+                        class="proyectos__item__imagen">
+                    <div class="proyectos__item__info">
+                        <div>
+                            <h3 class="proyectos__item__titulo">Juego del Ahorcado</h3>
+                            <p class="proyectos__item__descripcion">Challenge Oracle</p>
+                        </div>
+                        <div class="proyectos__botones">
+                            <a class="proyectos__item__boton boton-repositorio" target="_blank"
+                                href="https://github.com/Santimartz12/Ahorcado">Repositorio</a>
+                            <a class="proyectos__item__boton boton-demo" target="_blank"
+                                href="https://santimartz12.github.io/Ahorcado/">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyectos__item">
+                    <img src="./resources/Imagenes/Proyectos/portafolio artistico.jpg" alt="ImagenPortafolio"
+                        class="proyectos__item__imagen">
+                    <div class="proyectos__item__info">
+                        <div>
+                            <h3 class="proyectos__item__titulo">Portafolio Artístico</h3>
+                            <p class="proyectos__item__descripcion">Proyecto Personal</p>
+                        </div>
+                        <div class="proyectos__botones">
+                            <a class="proyectos__item__boton boton-repositorio" target="_blank"
+                                href="https://github.com/Santimartz12/Official_Website">Repositorio</a>
+                            <a class="proyectos__item__boton boton-demo" target="_blank"
+                                href="https://santimartz12.github.io/Official_Website/">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section id="contacto">
+            <div class="contacto__info">
+                <h2 class="contacto__titulo">Contacto</h2>
+                <p class="contacto__texto">Ingresa tus datos en el siguiente formulario <br>Me pondré en contacto
+                    contigo lo más pronto posible.</p>
+
+                <form class="contacto__contenedor">
+
+
+                    <input type="text" id="nombreapellido" placeholder="Nombre" class="contacto__input">
+                    <input type="text" id="email" placeholder="Correo Electrónico" class="contacto__input">
+                    <input type="text" id="Asunto" placeholder="Asunto" class="contacto__input">
+                    <textarea id="mensaje" class="contacto__input contacto__input-mensaje" rows="10" placeholder="Mensaje"></textarea>
+
+                    <input class="contacto__boton" type="button" value="Enviar Mensaje">
+
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <p class="footer__nombre"> &copy; Santiago Martínez Martínez</p>
+            <div class="footer__logos">
+                <a href="https://github.com/Santimartz12" target="_blank"><img src="./resources/Logos/Github.svg" alt="logoGithub" class="footer__logo"></a>
+                <a href="https://app.aluracursos.com/user/santimartz12" target="_blank"><img src="./resources/Logos/Alura.svg" alt="logoAlura" class="footer__logo"></a>
+                <a href="https://www.linkedin.com/in/santimartz/" target="_blank"><img src="./resources/Logos/LinkedIn.svg" alt="logoLinkedIn" class="footer__logo"></a>         
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

@@ -1,0 +1,83 @@
+#hobbies{
+    margin: 50px 0;
+}
+
+.hobbies__titulo{
+    font-family: "Montserrat" , sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.hobbies__lista{
+	width: 85%;
+	margin: 30px 7.5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.hobbies__item{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color:rgb(36, 36, 36);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.099);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 200ms;
+}
+
+.hobbies__item:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.1, 1.1);
+    filter: invert(100%);
+}
+
+.hobbies__nombre{
+    font-family: "Montserrat" , sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.hobbies__imagen{
+	width: 60px;
+	height: 60px;
+	margin-bottom: 14px;
+	margin-top: 19px;
+}
+
+.hobbies__imagen-camara{
+    background: url(../resources/Iconos/camera.svg) center / cover no-repeat;
+}
+
+.hobbies__imagen-musica{
+    background: url(../resources/Iconos/music-note.svg) center / cover no-repeat;
+}
+
+.hobbies__imagen-escultura{
+    background: url(../resources/Iconos/sculpture.svg) center / cover no-repeat;
+}
+
+.hobbies__imagen-series{
+    background: url(../resources/Iconos/movie.svg) center / cover no-repeat;
+}
+
+@media screen and (max-width:1024px){
+    
+    .hobbies__item {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .hobbies__item {
+        width: 100%;
+    }
+}

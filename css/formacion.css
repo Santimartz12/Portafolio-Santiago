@@ -1,0 +1,59 @@
+#formacion{
+    background-color: black;
+    padding: 50px 0;
+}
+
+.formacion__titulo{
+    text-transform: uppercase;
+	font-family: "Montserrat" , sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	color: white;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+.formacion__lista {
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 2.5%;
+}
+
+.formacion__contenedor {
+	width: 300px;
+	margin: 15px 15px 10px 15px;
+}
+
+.formacion__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 300px;
+	height: 200px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.formacion__lista__imagen{
+    width: 150px;
+}
+
+.formacion__lista__nombre{
+	font-family: "Montserrat" , sans-serif;
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: white;
+    margin: 15px auto 1px auto;
+    text-align: center;
+}
+
+.formacion__lista__fecha{
+    font-family: "Montserrat" , sans-serif;
+	font-weight: 400;
+	font-size: .8rem;
+	color: white;
+    margin: 5px;
+    text-align: center;
+}
