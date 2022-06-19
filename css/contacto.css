@@ -87,6 +87,25 @@
     resize: none;
 }
 
+.contacto__Info__datos{
+    font-family: "Montserrat" , sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: whitesmoke;
+    display: none;
+    text-shadow: 0 0 20px white;
+}
+
+.contacto__errores{
+    font-family: "Montserrat" , sans-serif;
+    text-align: center;
+    color: red;
+}
+
+.mostrar{
+    display: block;
+}
+
 @media screen and (max-width:1024px) {
     .contacto__contenedor {
         width: 70%;

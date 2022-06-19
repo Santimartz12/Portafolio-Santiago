@@ -252,16 +252,25 @@
 
                 <form class="contacto__contenedor">
 
-
+                    <ul class="contacto__errores" id="errores-nombre"></ul>
                     <input type="text" id="nombreapellido" placeholder="Nombre" class="contacto__input">
+                    <ul class="contacto__errores" id="errores-email"></ul>
                     <input type="text" id="email" placeholder="Correo Electrónico" class="contacto__input">
+                    <ul class="contacto__errores" id="errores-asunto"></ul>
                     <input type="text" id="Asunto" placeholder="Asunto" class="contacto__input">
+                    <ul class="contacto__errores" id="errores-mensaje"></ul>
                     <textarea id="mensaje" class="contacto__input contacto__input-mensaje" rows="10" placeholder="Mensaje"></textarea>
 
                     <input class="contacto__boton" type="button" value="Enviar Mensaje">
 
+
                 </form>
+
+                <p class="contacto__Info__datos">Datos guardados correctamente!</p>
+                
             </div>
+
+            <script src="./js/formulario.js"></script>
 
         </section>
 
